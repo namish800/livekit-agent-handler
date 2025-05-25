@@ -1,0 +1,10 @@
+fastapi>=0.110
+uvicorn[standard]>=0.23
+livekit
+python-dotenv>=1.0
+tenacity>=8.2
+pydantic>=2.6
+pydantic-settings>=2.1
+
+livekit-agents[deepgram,openai,cartesia,silero,turn-detector]
+livekit-plugins-noise-cancellation~=0.2

@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  outbound-api:
+    build: .
+    container_name: livekit-outbound-api
+    env_file:
+      - .env
+    ports:
+      - "8000:8000"
+    restart: unless-stopped 
